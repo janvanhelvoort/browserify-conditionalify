@@ -1,6 +1,6 @@
 {
   "name": "browserify-conditionalify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Browserify conditional compilation",
   "keywords": [
     "browserify-transform",
