@@ -19,5 +19,9 @@
     "through": "^2.3.8"
   },
   "author": "Jan van Helvoort <janvanhelvoort@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/janvanhelvoort/browserify-conditionalify.git"
+  }
 }
