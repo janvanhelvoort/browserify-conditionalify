@@ -1,5 +1,3 @@
-# conditionalify
-browserify-conditionalify
 #### Note
 This project is based on [skrat's jpp](https://www.npmjs.com/package/jpp)
 
