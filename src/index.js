@@ -1,8 +1,9 @@
 var through = require('through');
 
-var isIfRegex = /^\s*#if ([A-Za-z_][A-Za-z_0-9]*)/;
-var isElseRegex = /^\s*#else/;
-var isEndIfRegex = /^\s*#endif/;
+
+var isIfRegex = /^\s*(?:\/\/){0,1}\s*#if ([A-Za-z_][A-Za-z_0-9]*)/;
+var isElseRegex = /^\s*(?:\/\/){0,1}\s*#else/;
+var isEndIfRegex = /^\s*(?:\/\/){0,1}\s*#endif/;
 
 function preprocess(data, settings) {
     var processed = [], lines = data.split('\n');
