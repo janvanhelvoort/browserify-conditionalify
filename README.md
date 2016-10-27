@@ -37,6 +37,25 @@ or
 #endif
 ```
 
+also with '//' because 
+`Using this transform results in an syntax error since '#' is not used for comments in Javascript.`
+
+```js
+//#if isEnabled            
+    console.log('product enabled');
+//#endif
+```
+
+or
+
+```js
+//#if isEnabled            
+    console.log('product enabled');
+//#else 
+    console.log('product is disabled');
+//#endif
+```
+
 ## License
 
 MIT
